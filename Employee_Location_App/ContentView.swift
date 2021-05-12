@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var employee: [Row] = []
+    @State var employee: [Row] = [] 
     @State var page=1
     @State var isLoading : Bool = false
     
