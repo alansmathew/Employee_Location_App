@@ -13,6 +13,10 @@
 		E745076C264BA87200BA5BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E745076B264BA87200BA5BAC /* Preview Assets.xcassets */; };
 		E7450777264BA87200BA5BAC /* Employee_Location_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7450776264BA87200BA5BAC /* Employee_Location_AppTests.swift */; };
 		E7450782264BA87200BA5BAC /* Employee_Location_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7450781264BA87200BA5BAC /* Employee_Location_AppUITests.swift */; };
+		E7A63DB8264BAEF600FD71CB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A63DB7264BAEF600FD71CB /* Data.swift */; };
+		E7A63DBD264BAF3600FD71CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A63DBC264BAF3600FD71CB /* MapView.swift */; };
+		E7A63DC2264BAF7100FD71CB /* ShowMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A63DC1264BAF7100FD71CB /* ShowMap.swift */; };
+		E7A63DC7264BB1E400FD71CB /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A63DC6264BB1E400FD71CB /* LoadingAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		E745077D264BA87200BA5BAC /* Employee_Location_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Employee_Location_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7450781264BA87200BA5BAC /* Employee_Location_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Location_AppUITests.swift; sourceTree = "<group>"; };
 		E7450783264BA87200BA5BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A63DB7264BAEF600FD71CB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E7A63DBC264BAF3600FD71CB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E7A63DC1264BAF7100FD71CB /* ShowMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMap.swift; sourceTree = "<group>"; };
+		E7A63DC6264BB1E400FD71CB /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				E7450764264BA87100BA5BAC /* Employee_Location_AppApp.swift */,
 				E7450766264BA87100BA5BAC /* ContentView.swift */,
+				E7A63DC6264BB1E400FD71CB /* LoadingAnimation.swift */,
+				E7A63DC1264BAF7100FD71CB /* ShowMap.swift */,
+				E7A63DBC264BAF3600FD71CB /* MapView.swift */,
+				E7A63DB7264BAEF600FD71CB /* Data.swift */,
 				E7450768264BA87200BA5BAC /* Assets.xcassets */,
 				E745076D264BA87200BA5BAC /* Info.plist */,
 				E745076A264BA87200BA5BAC /* Preview Content */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7450767264BA87100BA5BAC /* ContentView.swift in Sources */,
+				E7A63DBD264BAF3600FD71CB /* MapView.swift in Sources */,
+				E7A63DB8264BAEF600FD71CB /* Data.swift in Sources */,
+				E7A63DC7264BB1E400FD71CB /* LoadingAnimation.swift in Sources */,
 				E7450765264BA87100BA5BAC /* Employee_Location_AppApp.swift in Sources */,
+				E7A63DC2264BAF7100FD71CB /* ShowMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
