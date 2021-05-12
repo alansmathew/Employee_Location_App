@@ -34,10 +34,11 @@ class Api{
             guard let empData = data else { return }
             do {
                 let employee = try JSONDecoder().decode(Response.self, from: empData)
-                DispatchQueue.main.async {
-                    completion(employee.rows)
-                }
-                print(tempurl)
+                completion(employee.rows)
+//                DispatchQueue.main.async {
+//                    completion(employee.rows)
+//                }
+//                print(tempurl)
 //                print(employee.rows)
             }
             catch {

@@ -17,6 +17,11 @@ struct ContentView: View {
     func updateList(){
         Api().getAllEmployee(pageNumber:page) { (employee) in
             self.employee = employee
+    
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                isLoading = false
+//            }
+            isLoading = false
         }
     }
         
@@ -31,6 +36,7 @@ struct ContentView: View {
                         }
                         }
                     }.onAppear(){
+                        isLoading=true
                         updateList()
                     }
                     .navigationBarTitle("EmployeeList")
@@ -40,14 +46,12 @@ struct ContentView: View {
                                 page-=1
                                 isLoading = true
                                 updateList()
-                                isLoading = false
                             }
                         })
                         ,trailing:Button("Next page",action: {
                             page+=1
                             isLoading = true
                             updateList()
-                            isLoading = false
                         })
                 )
             }
